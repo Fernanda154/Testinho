@@ -1,0 +1,54 @@
+
+.ui.card, .ui.cards>.card{
+    width: 314px;
+    margin: 15px;
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) titulo-card{
+    font-size: 12px !important;
+    color: #8798AD !important;
+    height: 10px !important;
+}
+.ui.card>.content, .ui.cards>.card>.content card-doacao{
+    padding: 1.5em 1em;
+}
+.ui.card>.extra, .ui.cards>.card>.extra{
+    padding: 1em 1em;
+}
+.icon-hands{
+    height: 35px;
+    margin-left: 20px;
+}
+.text h2{
+    font-size: 18px !important;
+    font-family: 'Rubik', sans-serif !important;
+    color: #274264 !important;
+}
+.horas-semana{
+    color: #274264;
+    font-size: 9px;
+    width: 40px;
+    margin-left: 5px;
+    line-height: 12px;
+    margin-right: auto;
+}
+.text{
+    display: flex;
+    width: 60%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+.descricao{
+    display: flex;
+    flex-wrap: wrap;
+}
+.descricao p{
+    font-size: 18px;
+    color: #274264;
+}
+.break {
+    display: block;
+    width: 100%;
+}

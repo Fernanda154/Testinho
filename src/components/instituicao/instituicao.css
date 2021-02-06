@@ -1,0 +1,9 @@
+.instituicao{
+    color: #21D170;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.porta-instituicao{
+    display: flex;
+}

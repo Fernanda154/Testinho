@@ -1,0 +1,15 @@
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    flex: 1;
+}
+.break {
+    display: block;
+    width: 100%;
+}
+.ui.cards{
+    width: 83%;
+    margin: 20px 20px;
+}
