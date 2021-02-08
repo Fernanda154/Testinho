@@ -2,6 +2,10 @@
 .ui.card, .ui.cards>.card{
     width: 314px;
     margin: 15px;
+    
+}
+.ui.card, .ui.cards>.card:hover{
+    box-shadow: 0 0 1em #d2d2d2;
 }
 .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) titulo-card{
     font-size: 12px !important;
@@ -14,7 +18,7 @@
 .ui.card>.extra, .ui.cards>.card>.extra{
     padding: 1em 1em;
 }
-.icon-hands{
+.icon{
     height: 35px;
     margin-left: 20px;
 }
