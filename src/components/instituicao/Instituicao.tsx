@@ -1,10 +1,10 @@
 import React from 'react'
 import './instituicao.css'
 
-function Instituicao(){
+function Instituicao(props:any){
     return(
         <div className="porta-instituicao">
-            <span className="instituicao">SP Invisível</span>
+            <span className="instituicao">{props.instituicao}</span>
         </div>
         
     );

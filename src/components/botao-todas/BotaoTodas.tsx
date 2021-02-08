@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from 'semantic-ui-react'
-
+import { Button } from 'semantic-ui-react';
+import './botaoTodas.css';
     function BotaoTodas(){
         return(
-            <Button basic color='green'>
+            <button className="todas">
                 Todas as oportunidades
-            </Button>
+            </button>
         );
     }
 export default BotaoTodas;
